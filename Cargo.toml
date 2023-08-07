@@ -2,6 +2,9 @@
 name = "serde-path"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "URL Path decoding and encoding with serde"
+repository = "https://github.com/xfbs/serde-path"
 
 [dependencies]
 percent-encoding = "2.3.0"

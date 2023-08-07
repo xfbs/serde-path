@@ -6,7 +6,10 @@ mod error;
 pub mod util;
 pub use error::*;
 
-pub fn from_path<T: DeserializeOwned>(template: &str, path: &str) -> Result<T, PathDeserializationError> {
+pub fn from_path<T: DeserializeOwned>(
+    template: &str,
+    path: &str,
+) -> Result<T, PathDeserializationError> {
     todo!()
 }
 
